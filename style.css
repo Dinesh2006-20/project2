@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    padding:0;
+    width: 100vw;
+    height: 100vw;
+}
+@media screen and (max-width:700px) {
+.heading{
+    padding: 10px;
+    margin-top: 10px;
+    display: none;
+}
+.border-box{
+    padding: 10px;
+    background-color: white;
+    border: none;
+    box-shadow: 2px 2px 5px black;
+    color: red;
+    cursor: pointer;
+}
+.border-box i{
+    font-size: xx-large;
+}
+}
+@media screen and (min-width:700px) {
+    .heading{
+        padding: 20px;
+        margin-top: 20px;
+        display: none;
+    }
+    .border-box{
+        padding: 20px;
+        background-color: white;
+        border: none;
+        box-shadow: 2px 2px 5px black;
+        color: red;
+        cursor: pointer;
+        
+    }
+    .border-box i{
+        font-size: xx-large;
+    }
+    }
+    @media screen and (max-width:700px){
+        .loading{
+            text-align:center ;
+            padding: 20px;
+            color: red;
+            display: none;
+            transition: 1s;
+        }
+        .loading i{
+            font-size: 80px;
+            position: absolute;
+            top: 40%;
+            left: 40%;
+        } 
+    }
+    @media screen and (min-width:700px){
+        .loading{
+            text-align:center ;
+            padding: 20px;
+            color: red;
+            display: none;
+            transition: 1s;
+        }
+        .loading i{
+            font-size: 80px;
+            position: absolute;
+            top: 40%;
+            left: 45%;
+        } 
+    }
+    @media screen  and (max-width:700px){
+        .header{
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            box-shadow: 2px 2px 5px black;
+        }
+        .first{
+            margin: 10px;
+        }
+        .first i{
+            margin: 2px;
+            font-size: 50px;
+            color: red;
+        }
+        .first b{
+            position: absolute;
+            top: 4%;
+            font-size: 30px;
+        }
+        .second{
+            margin: 10px;
+        }
+        .second i{
+            margin: 15px;
+            font-size: 20px;
+            cursor: pointer;
+        }    
+    }
+    @media screen  and (min-width:700px){
+        .header{
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            box-shadow: 2px 2px 5px black;
+        }
+        .first{
+            margin: 10px;
+        }
+        .first i{
+            margin: 2px;
+            font-size: 70px;
+            color: red;
+        }
+        .first b{
+            position: absolute;
+            top: 5%;
+            font-size: 40px;
+        }
+        .second{
+            margin: 10px;
+        }
+        .second i{
+            margin: 30px;
+            font-size: 30px;
+            cursor: pointer;
+        }    
+    }
+  .buttons{
+    padding-top: 20px;
+  }
+  .buttons button{
+    margin:6px;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    background-color: beige;
+    cursor: pointer;
+  }  
