@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,9 +11,10 @@
     <script src="index.js"></script>
     <!--font awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-                integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-                crossorigin="anonymous" referrerpolicy="no-referrer" />
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
     <div class="heading">
         <button class="border-box" onclick="func1()"><i class="fa-brands fa-youtube"></i></button>
@@ -21,9 +23,30 @@
     <div class="loading">
         <i class="fa-brands fa-youtube"></i>
     </div>
-     <div class="header">
-       <div class="first"><i class="fa-brands fa-youtube"></i><b>CloneTube</b></div> <div class="second"><i class="fa-solid fa-tv"></i><i class="fa-solid fa-bell"></i><i class="fa-solid fa-magnifying-glass"></i></div>
-     </div>
-     <div class="buttons"><button class="compass"><i class="fa-solid fa-compass"></i></button><button class="all">All</button><button>New to you</button><button>News</button><button>Javascript</button><button>Polimer TV</button><button>Cartoons</button></div>
+    <div class="header">
+        <div class="first"><i class="fa-brands fa-youtube"></i><b>CloneTube</b></div>
+        <div class="second"><i class="fa-brands fa-chromecast"></i><i class="fa-solid fa-bell"></i><i
+                class="fa-solid fa-magnifying-glass"></i></div>
+    </div>
+    <div class="buttons"><button class="compass" onclick="func3()"><i class="fa-solid fa-compass"></i></button><button
+            class="all" onclick="func2()" style="background-color: black;color: white;">All</button><button class="New" onclick="func33()">New to
+            you</button><button class="News" onclick="func4()">News</button><button class="ecma" onclick="func5()">Javascript</button><button class="polimer" onclick="func6()">Polimer
+            TV</button><button class="cartoons" onclick="func7()">Cartoons</button><div class="extra"><button class="extra-1" onclick="func8()">Gaming</button><button
+            class="extra-2" onclick="func9()">Java</button><button class="extra-3" onclick="func10()">Cloud computing</button><button
+            class="extra-4" onclick="func11()">Kolam</button><button class="extra-5" onclick="func12()">Biggboss</button><button class="extra-6" onclick="func13()">Pushpa 2</button>
+            <button class="extra-7" onclick="func14()">Squid game</button> <button  onclick="func15()" class="extra-8">Mixes</button><button class="extra-9" onclick="func16()">Inventions</button><button class="extra-10" onclick="func17()">History</button><button class="extra-11" onclick="func18()">Dremandy</button>
+            <button class="extra-12" onclick="func19()">Tamil cinema</button></div>
+    </div>
+    <div class="content"></div>
+    <div class="icons">
+        <div class="home"><i class="fa-solid fa-home"></i><p>Home</p></div>
+        <div class="shorts"><i class="fa-solid fa-mobile" onclick="short()"></i><p>Shorts</p></div>
+        <div class="file"><button>+</button></div>
+        <div class="subscription"><i class="fa-regular fa-window-restore"> </i><p>subscriptions</p></div>
+         <div class="account"><div class="border"><img src="ti-1.jpg" alt="tiger" onclick="acc()"></div>
+        <p>You</p></div>
+    </div>
+
 </body>
+
 </html>
