@@ -121,6 +121,14 @@ function func3() {
     const t=document.querySelector(".extra-12")
     t.style.backgroundColor="beige"
     t.style.color="black"
+    const head=document.querySelector(".headering")
+    const two=document.querySelector(".two")
+    const three=document.querySelector(".icons")
+    const five=document.querySelector(".main-comp")
+    head.style.opacity="40%"
+    two.style.opacity="40%"
+    three.style.opacity="40%"
+    five.style.display="block" 
 }
 function func33() {
     const a=document.querySelector(".compass")
@@ -555,7 +563,7 @@ f.style.backgroundColor="beige"
     const g=document.querySelector(".cartoons")
     g.style.backgroundColor="beige"
     g.style.color="black"
-    const h=document.querySelector(".extra")
+    const h=document.querySelector(".extra-1")
     h.style.backgroundColor="beige"
     h.style.color="black"
     const j=document.querySelector(".extra-2")
@@ -1139,30 +1147,38 @@ function acc() {
 }
 function  short() {
     const a=document.querySelector(".shorts")
+    const c=document.querySelector(".border")
     const b=document.querySelector(".icons")
     b.style.color="white"
     b.style.backgroundColor="black"
+    c.style.border="none"
 }
 function home() {
     const b=document.querySelector(".icons")
+    const a=document.querySelector(".border")
     b.style.color="black"
     b.style.backgroundColor="white"
+    a.style.border="none"
 }
 function search() {
     const a=document.querySelector(".headering")
     const b=document.querySelector(".two")
     const c=document.querySelector(".mainbar")
+    const d=document.querySelector(".content")
     a.style.display="none"
     b.style.display="none"
     c.style.display="block"
+    d.style.display="none"
 }
 function searching() {
     const a=document.querySelector(".headering")
     const b=document.querySelector(".two")
     const c=document.querySelector(".mainbar")
+    const d=document.querySelector(".content")
     a.style.display="block"
     b.style.display="block"
     c.style.display="none"
+    d.style.display="block"
 }
 function connect() {
     const a=document.querySelector(".headering")
@@ -1170,10 +1186,12 @@ function connect() {
     const c=document.querySelector(".connector")
     const d=document.querySelector(".icons")
     const e=document.querySelector(".three")
+    const f=document.querySelector(".content")
     a.style.opacity="40%"
     b.style.opacity="40%"
     d.style.opacity="40%"
     e.style.opacity="40%"
+    f.style.opacity="40%"
     c.style.display="block"
 }
 function cancel() {
@@ -1182,27 +1200,134 @@ function cancel() {
     const c=document.querySelector(".connector")
     const d=document.querySelector(".icons")
     const e=document.querySelector(".three")
+    const f=document.querySelector(".content")
     a.style.opacity="100%"
     b.style.opacity="100%"
     d.style.opacity="100%"
     e.style.opacity="100%"
+    f.style.opacity="100%"
     c.style.display="none"
 }
 function notification() {
     const a=document.querySelector(".headering")
     const b=document.querySelector(".two")
     const c=document.querySelector(".three")
+    const d=document.querySelector(".content")
     a.style.display="none"
     b.style.display="none"
     c.style.display="block"
+    d.style.display="none"
 }
 function clo() {
     const a=document.querySelector(".headering")
     const b=document.querySelector(".two")
     const c=document.querySelector(".three")
+    const d=document.querySelector(".content")
     a.style.display="block"
+    b.style.display="block"
+    d.style.display="block"
+    c.style.display="none"
+    
+}
+function funct() {
+    const a=document.querySelector(".headering")
+    const b=document.querySelector(".two")
+    const c=document.querySelector(".main-comp")
+    const d=document.querySelector(".icons")
+    const e=document.querySelector(".all")
+    e.style.backgroundColor="black"
+    e.style.color="white"
+    const f=document.querySelector(".compass")
+    f.style.backgroundColor="beige"
+    f.style.color="black"
+    a.style.opacity="100%"
+    b.style.opacity="100%"
+    c.style.display="none"
+    d.style.opacity="100%"
+
+}
+function function1(){
+    const a=document.getElementById("upper")
+    const b=document.getElementById("downer")
+    const c=document.querySelector(".arrowdown")
+    a.style.display="block"
+    b.style.display="none"
+    c.style.display="block"
+}
+function function2() {
+    const a=document.getElementById("upper")
+    const b=document.getElementById("downer")
+    const c=document.querySelector(".arrowdown")
+    a.style.display="none"
     b.style.display="block"
     c.style.display="none"
 }
+function function3() {
+    const a=document.getElementById("upper-1")
+    const b=document.getElementById("downer-1")
+    const c=document.querySelector(".arrowdown-1")
+    a.style.display="block"
+    b.style.display="none"
+    c.style.display="block"
+}
+function function4() {
+    const a=document.getElementById("upper-1")
+    const b=document.getElementById("downer-1")
+    const c=document.querySelector(".arrowdown-1")
+    a.style.display="none"
+    b.style.display="block"
+    c.style.display="none"
+}
+function aboutclose() {
+    const a=document.querySelector(".headering")
+    const b=document.querySelector(".two")
+    const c=document.querySelector(".advertisement")
+    const d=document.querySelector(".icons")
+    const e=document.querySelector(".three")
+    const f=document.querySelector(".content")
+    a.style.opacity="100%"
+    b.style.opacity="100%"
+    d.style.opacity="100%"
+    e.style.opacity="100%"
+    f.style.opacity="100%"
+    c.style.display="none"
+}
+function openabout() {
+    const a=document.querySelector(".headering")
+    const b=document.querySelector(".two")
+    const c=document.querySelector(".advertisement")
+    const d=document.querySelector(".icons")
+    const e=document.querySelector(".three")
+    const f=document.querySelector(".content")
+    a.style.opacity="40%"
+    b.style.opacity="40%"
+    d.style.opacity="40%"
+    e.style.opacity="40%"
+    f.style.opacity="40%"
+    c.style.display="block"
+}
+function video1() { 
+    const d=document.querySelector(".video-1")
+    d.requestFullscreen();
+    d.muted=false;
+    d.pause()=false;
+}
+function video2() { 
+    const d=document.querySelector(".video-2")
+    d.requestFullscreen();
+    d.muted=false;
+    d.pause()=false;
+}
+function video3() { 
+    const d=document.querySelector(".video-3")
+    d.requestFullscreen();
+    d.muted=false;
+    d.pause()=false;
+}
 
-
+function video4() { 
+    const d=document.querySelector(".video-4")
+    d.requestFullscreen();
+    d.muted=false;
+    d.pause()=false;
+}
