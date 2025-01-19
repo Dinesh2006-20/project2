@@ -217,6 +217,9 @@ body{
           }
           .mainbar{
             display: none;
+            position: absolute;
+            top: 0%;
+            width: 100%;
           }
           .search-bar{
             display: flex;
@@ -317,6 +320,8 @@ body{
           }
           .three{
             display: none;
+            position: absolute;
+            top: 0%;
           }
           .noti-section .s1{
             display: flex;
@@ -348,10 +353,12 @@ body{
           }
           .main-comp{
             display: none;
-            width: 50%;
             position: absolute;
+            width: 50%;
             top: 0%;
-            left: 0px;
+            left: 0%;
+            z-index: 1;
+            background-color: white;
             
             
           }
@@ -366,7 +373,6 @@ body{
             width: 49.2%;
             padding: 5px;
             background-color: white;
-            
           }
           .top i{
             cursor: pointer;
@@ -622,17 +628,6 @@ body{
           .shorts-1 div{
             margin: 10px;
           }
-          #exit{
-            position: absolute;
-            top: 72%;
-            left: 10%;
-            transform: translate(-50%,-50%);
-            color: #fff;
-            z-index: 1;
-            font-size: 30px;
-            display: none;
-
-          }
 
     }
     @media screen and (min-width:700px){
@@ -721,6 +716,9 @@ body{
           }
           .mainbar{
             display: none;
+            position: absolute;
+            top: 0%;
+            width: 100%;
           }
           .search-bar{
             display: flex;
@@ -823,6 +821,9 @@ body{
           }
           .three{
             display: none;
+            position: absolute;
+            width: 100%;
+            top: 0%;
           }
           .noti-section .s1{
             display: flex;
@@ -903,7 +904,7 @@ body{
             text-align: center;
             padding: 10px;
             position: fixed;
-            width: 47.3%;
+            width: 48.7%;
             background-color: white;
           }
           .Privacy a{

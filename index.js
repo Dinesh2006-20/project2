@@ -125,9 +125,11 @@ function func3() {
     const two=document.querySelector(".two")
     const three=document.querySelector(".icons")
     const five=document.querySelector(".main-comp")
+    const six=document.querySelector(".content")
     head.style.opacity="40%"
     two.style.opacity="40%"
     three.style.opacity="40%"
+    six.style.opacity="40%"
     five.style.display="block" 
 }
 function func33() {
@@ -1152,6 +1154,23 @@ function  short() {
     b.style.color="white"
     b.style.backgroundColor="black"
     c.style.border="none"
+    const d=document.querySelector(".video-3")
+    d.requestFullscreen();
+    d.muted=false;
+    d.pause()=false;
+    const f=document.querySelector(".video-1")
+    f.requestFullscreen();
+    f.muted=false;
+    f.pause()=false;
+    const g=document.querySelector(".video-2")
+    g.requestFullscreen();
+    g.muted=false;
+    g.pause()=false;
+    const h=document.querySelector(".video-4")
+    h.requestFullscreen();
+    h.muted=false;
+    h.pause()=false;
+    
 }
 function home() {
     const b=document.querySelector(".icons")
@@ -1239,12 +1258,13 @@ function funct() {
     e.style.color="white"
     const f=document.querySelector(".compass")
     f.style.backgroundColor="beige"
+    const six=document.querySelector(".content")
     f.style.color="black"
     a.style.opacity="100%"
     b.style.opacity="100%"
     c.style.display="none"
     d.style.opacity="100%"
-
+    six.style.opacity="100%"
 }
 function function1(){
     const a=document.getElementById("upper")
